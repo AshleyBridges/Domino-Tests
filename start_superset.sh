@@ -81,7 +81,6 @@ if [ ! -f $SUPERSET_HOME/.setup-complete ]; then
 
   touch $SUPERSET_HOME/.setup-complete
 
-//
 
 else
   # always upgrade the database, running any pending migrations
